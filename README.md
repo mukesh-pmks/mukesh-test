@@ -2,6 +2,8 @@
 
 **Steps Performed**
 
+Had to configure all tools from scratch since my personal laptop didnt had needed tools. Installed jenkins as docker container.
+
 1. Downloaded source code for hello world java app from github through jenkins github plugin.
 2. Performed maven build on the source code to build the war. Maven version used 3.5.4
 3. Tested war with deploying on virtual machine with tomcat-8.5
@@ -11,3 +13,4 @@
 **  docker run -it -p 8082:8080 java-hello:1.0 **
 6. Tried configuring jenkins pipeline but got in git parameter not found issue even though we installed plugin.
 7. Tried docker image through jenkins but got error with docker cloud api config in jenkins.
+
